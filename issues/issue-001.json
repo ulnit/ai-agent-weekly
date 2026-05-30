@@ -1,0 +1,49 @@
+{
+  "number": 1,
+  "date": "2026-06-02",
+  "title": "AI Agent Weekly #1: YC Bets on Agent Infrastructure",
+  "sections": [
+    {
+      "title": "🔥 Top Story",
+      "content": "**YC S24 backs Voker — analytics for AI agents.** Silicon Valley's top incubator is betting that 'agent infrastructure' is the next big category. Voker provides monitoring, analytics, and debugging for AI agent deployments — similar to what Datadog did for servers. This signals a market shift: from building agents to managing them at scale."
+    },
+    {
+      "title": "🛠️ New Tools",
+      "items": [
+        {
+          "name": "InsForge",
+          "desc": "Open-source Heroku for coding agents. Deploy AI agents with one command.",
+          "url": "https://github.com/InsForge/InsForge"
+        },
+        {
+          "name": "AISlop",
+          "desc": "CLI to detect AI-generated code smells. Growing fast — 72 HN points.",
+          "url": "https://github.com/scanaislop/aislop"
+        },
+        {
+          "name": "Agent.email",
+          "desc": "Sign up for services via curl, verify with OTP. Built for agent-first workflows.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "💡 Business Model Spotlight",
+      "content": "**Agent Templates are the new SaaS.** Instead of building custom AI agents from scratch, companies are buying pre-built templates for specific industries (real estate, e-commerce, customer support). The template model mirrors WordPress themes in 2010 — early entrants capture the market. Our analysis: 5 verticals ready for disruption."
+    },
+    {
+      "title": "📊 Market Data",
+      "items": [
+        "PromptBase: 270,000+ prompts, ChatGPT Skills selling at $9.99 avg",
+        "GitHub: ~500 new AI-related repos/week, 15% are agent frameworks",
+        "Dev.to: AI tag articles up 40% YoY, 'agent' mentions up 200%",
+        "HN: 'AI agent' posts average 85 points, making it a top-5 topic"
+      ]
+    },
+    {
+      "title": "🤑 Monetization Tip",
+      "content": "**Sell the workflow, not the tool.** The most successful AI products in 2026 don't sell AI features — they sell complete workflows. Example: 'Real Estate Lead Qualifier' sells better than 'AI Text Generator'. Package your prompt + integration guide + sample outputs into a complete solution and charge 3x more."
+    }
+  ],
+  "sponsor": "This issue is sponsored by... [your product here — $50/issue]"
+}
