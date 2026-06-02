@@ -1,0 +1,49 @@
+{
+  "number": 2,
+  "date": "2026-06-02",
+  "title": "AI Agent Weekly #2: Robinhood Opens the Floodgates — AI Agents Now Trade Stocks",
+  "sections": [
+    {
+      "title": "🔥 Top Story",
+      "content": "**Robinhood now lets your AI agents trade stocks.** The fintech giant opened API access for autonomous AI trading agents this week, letting models place buy/sell orders, monitor portfolios, and rebalance — all without human intervention. The HN thread exploded to 180 comments as developers debated the implications: algorithmic trading was already automated, but this puts AI agent reasoning directly on the trade execution path. Our analysis: this is the first major consumer fintech to explicitly endorse agent-driven trading. Expect a wave of 'AI hedge fund in a box' startups, followed by regulatory scrutiny. The question isn't whether agents will trade — it's who bears liability when they lose money."
+    },
+    {
+      "title": "🛠️ New Tools",
+      "items": [
+        {
+          "name": "vibecode-pro-max-kit",
+          "desc": "Spec-driven coding harness with 12 agents, 32 skills, and self-improving context memory. Ships features, not spaghetti. (⭐699 in 5 days)",
+          "url": "https://github.com/withkynam/vibecode-pro-max-kit"
+        },
+        {
+          "name": "Duel-Agents",
+          "desc": "CLI + SDK + IDE plugins framework where agents compete to produce better code through adversarial testing. (⭐641)",
+          "url": "https://github.com/2aronS/Duel-Agents"
+        },
+        {
+          "name": "antigravity-cli",
+          "desc": "Google's new agentic CLI dev platform powered by Gemini 3.5 Flash — automatic workspace understanding and coding. (⭐264 in 2 days)",
+          "url": "https://github.com/antigravity-cli-google/antigravity-cli"
+        }
+      ]
+    },
+    {
+      "title": "💡 Business Model Spotlight",
+      "content": "**Agent Skills Marketplaces are the next app store.** GitHub saw 72 new agent-related repos in the past 7 days — and the fastest-growing ones aren't frameworks. They're *skills*. DannyMac180/skills (⭐315) is a curated collection of reusable AI agent skills. nihaixia-tcm (⭐187) packages Traditional Chinese Medicine knowledge as an agent skill. Metamask-openclaw (⭐246) wraps crypto wallet operations for agents. The pattern is clear: developers are building composable, domain-specific agent capabilities that anyone can plug into their workflow. The monetization play? Build a marketplace of vetted agent skills with usage-based pricing. Whoever owns the skill distribution channel owns the agent economy."
+    },
+    {
+      "title": "📊 Market Data",
+      "items": [
+        "HN: 'AI agent' stories averaged 85+ points this week; top story (Robinhood agents trading stocks) hit 111pts with 180 comments",
+        "GitHub: 72 new agent repos created in 7 days (up from ~50/week in May); total agent repos on GitHub: 10,600+",
+        "Dev.to: Top AI article — 'How Are Developers Actually Using AI At Work?' — 159 reactions, 220 comments, 4 min read",
+        "Gartner: 40% of enterprises will demote or decommission autonomous AI agents due to governance failures by 2028"
+      ]
+    },
+    {
+      "title": "🤑 Monetization Tip",
+      "content": "**Build agent skills, not agents.** The gold rush isn't in building yet another agent framework — it's in building the skills those agents use. A weather-checking skill, a crypto-wallet skill, a PDF-parsing skill, a TCM diagnosis skill — these are the 'micro-SaaS' of 2026. Each skill is a $9-29/month subscription. Package 5 domain-specific skills together and you have a $99/month B2B product. The barrier is low (a single well-crafted system prompt + an API wrapper), but the market is wide open. Start with industries where domain expertise is rare: legal, medical, tax, and compliance."
+    }
+  ],
+  "sponsor": "This issue is sponsored by... [your product here — $50/issue]"
+}
