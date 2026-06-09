@@ -1,0 +1,49 @@
+{
+  "number": 3,
+  "date": "2026-06-09",
+  "title": "AI Agent Weekly #3: Microsoft Enters the Autonomous Agent Arena with Scout",
+  "sections": [
+    {
+      "title": "🔥 Top Story",
+      "content": "**Microsoft announces Scout, an autonomous AI agent built on OpenClaw.** This week Microsoft unveiled Scout — a fully autonomous AI agent that runs on the OpenClaw framework (94pts, 87 comments on HN). Unlike Copilot, which assists developers, Scout operates independently: it can monitor systems, triage incidents, write code, and deploy fixes without a human in the loop. The HN thread erupted with debate — is this the beginning of 'set it and forget it' enterprise AI, or a liability nightmare waiting to happen? Our analysis: Microsoft choosing OpenClaw (an open framework) over a proprietary stack is the real signal here. It suggests that agent interoperability — the ability for agents from different vendors to communicate and coordinate — is becoming a strategic priority. The agent ecosystem is standardizing fast. If you're building agent infrastructure, bet on open protocols. The walled-garden approach dies here."
+    },
+    {
+      "title": "🛠️ New Tools",
+      "items": [
+        {
+          "name": "baoyu-design",
+          "desc": "Run Claude Design locally as an Agent Skill — produce polished UI mockups, prototypes, and wireframes as self-contained HTML. Best with Opus 4.8. (⭐515 in 7 days)",
+          "url": "https://github.com/JimLiu/baoyu-design"
+        },
+        {
+          "name": "sandboxd",
+          "desc": "Self-hosted dev sandboxes with preview URLs. One command, no Kubernetes. Purpose-built for coding agents and SaaS factories. (⭐514)",
+          "url": "https://github.com/tastyeffectco/sandboxd"
+        },
+        {
+          "name": "guard-skills",
+          "desc": "Quality gates for coding agents — catches AI-generated failure modes in code, tests, and docs before they reach production. (⭐467)",
+          "url": "https://github.com/amElnagdy/guard-skills"
+        }
+      ]
+    },
+    {
+      "title": "💡 Business Model Spotlight",
+      "content": "**The $600K 'AI Skill' Severance.** A Dev.to post that went viral this week tells the story of a developer whose company spent months packaging 12 years of their experience into an AI Skill — then laid them off. When the skill crashed in production, the CTO called offering 5x their old salary to fix it. This isn't just a cautionary tale — it reveals a new business model. Companies are willing to pay premium rates (this case: ~$600K annualized equivalent) for the person who *built* the skill, because the skill captures surface patterns but not the deep intuition that handles edge cases. The opportunity: don't just sell AI skills — sell the *maintenance retainer*. Every agent skill deployed in production needs a human expert on standby for when it inevitably encounters a situation it wasn't trained for. The best business in the agent economy isn't building skills — it's being the 'agent surgeon' who gets called when skills break. Charge $5K-15K/month per enterprise client for on-call expertise."
+    },
+    {
+      "title": "📊 Market Data",
+      "items": [
+        "HN: Microsoft Scout hit 94pts/87cmts; Ask HN 'AI dev stack' exploded to 162pts/133cmts; RSS-for-agents story reached 85pts — agent infrastructure is now a top-3 HN topic",
+        "GitHub: 16 new agent repos with >30 stars created in the past 7 days; Agent Skills category dominates: baoyu-design (515★), guard-skills (467★), sandboxd (514★)",
+        "Dev.to: 'Company turned my 12 years of experience into an AI Skill, then laid me off' — 28❤, #1 trending AI story. The human cost of agent automation is hitting the discourse",
+        "YC Signal: Three YC companies in top HN stories this week (Intuned S22, Hyper P26, Expanse P26) — all building agent infrastructure. YC is all-in on the agent economy"
+      ]
+    },
+    {
+      "title": "🤑 Monetization Tip",
+      "content": "**Become the 'agent surgeon' — the highest-paid role in the new economy.** Every company deploying AI agents hits the same wall: the agent works 90% of the time, but the 10% failure rate kills trust. Those failures aren't random — they're the edge cases your domain expertise handles instinctively. Package yourself as an 'Agent Operations Consultant': audit their agent stack, build guard rails (like guard-skills), and offer a retainer for incident response. This is the 2026 equivalent of being a DevOps consultant in 2015 — high demand, low supply, premium rates. Start by offering a free agent audit to 5 companies. One will convert to a $5K/month retainer. The key differentiator: don't sell 'I know AI' — sell 'I know what breaks and how to fix it.' That's worth 5x more."
+    }
+  ],
+  "sponsor": "This issue is sponsored by... [your product here — $50/issue]"
+}
